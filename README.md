@@ -11,7 +11,9 @@
           <li> MyLinkedList implements interface MyList, MyQueue, MyStack.</li>
           <li>MyArrayList implements interface MyList.</li> 
           <li>MyCollection clas now work with MyList interface.</li>
+          </ul>
 <b>Ver 0.05:</b> <ul>
           <li>Added MyMap interface(SimpleEntry interface).</li> 
           <li>class MyHashMap implements MyMap.</li>
           <li>class MyTreeMap implements MyMap (using Red-Black Tree)</li> 
+          </ul>
