@@ -1,22 +1,22 @@
 package mycolletions;
 
 import java.util.Collections;
-import mycolletions.MyLinkedList;
 
+import mycolletions.MyLinkedList;
+import map.MyHashMap;
+import map.MyMap;
+import map.MyTreeMap;
 
 public class Main {
 
 	public static void main(String[] args) {
-		MyArrayList list1 = new MyArrayList();
+		MyMap<Integer, String> map = new MyTreeMap();
 		
-		list1.add(1);
-		list1.add(2);
-		list1.add(3);
-		list1.add(4);
+		map.put(0, "hello");
+		map.put(1, "aaa");
+		map.put(1, "world");
 		
-		
-		System.out.println(MyCollections.binarySearch(list1, 6));
-		
+		System.out.println(map.size());
 	}
 
 }
